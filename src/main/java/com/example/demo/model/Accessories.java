@@ -2,15 +2,13 @@ package com.example.demo.model;
 import java.util.List;
 
 public class Accessories {
-    private List<String> battery_charger; // No @ElementCollection needed!
+    private List<String> battery_charger; 
     private String powerAdopter;
     private String jacket;
     private String mask;
     private String blower;
 
     public Accessories() {}
-
-    // Getters and Setters
 
     public List<String> getBattery_charger() { return battery_charger; }
     public void setBattery_charger(List<String> battery_charger) { this.battery_charger = battery_charger; }

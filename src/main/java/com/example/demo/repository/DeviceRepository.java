@@ -1,9 +1,10 @@
 package com.example.demo.repository;
 
-import com.example.demo.model.BeeBox;
+import com.example.demo.model.Device; 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface BeeBoxRepository extends MongoRepository<BeeBox, String> {
+public interface DeviceRepository extends MongoRepository<Device, String> { 
+    
 }

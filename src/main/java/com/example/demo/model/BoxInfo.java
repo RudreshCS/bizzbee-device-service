@@ -10,7 +10,6 @@ public class BoxInfo {
 
     public BoxInfo() {}
 
-    // Getters and Setters
     public String getBoxId() { return boxId; }
     public void setBoxId(String boxId) { this.boxId = boxId; }
 

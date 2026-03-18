@@ -8,8 +8,6 @@ public class Software {
 
     public Software() {}
     
-    // Getters and Setters
-
     public String getMotherBoardVersion() { return motherBoardVersion; }
     public void setMotherBoardVersion(String motherBoardVersion) { this.motherBoardVersion = motherBoardVersion; }
 

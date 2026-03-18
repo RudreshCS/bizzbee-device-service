@@ -12,8 +12,6 @@ public class SimCardDetails {
 
     public SimCardDetails() {}
 
-    // Getters and Setters
-
     public String getServiceProvider() { return serviceProvider; }
     public void setServiceProvider(String serviceProvider) { this.serviceProvider = serviceProvider; }
 
