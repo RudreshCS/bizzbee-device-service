@@ -12,7 +12,7 @@ public class Device {
 
     private DeviceModel deviceModel;
     private ExternalFrame externalFrame;
-    private List<BoxInfo> box;
+    private List<BoxInformation> box;
     
     private DeviceHardware deviceHardware; 
     
@@ -30,8 +30,8 @@ public class Device {
     public ExternalFrame getExternalFrame() { return externalFrame; }
     public void setExternalFrame(ExternalFrame externalFrame) { this.externalFrame = externalFrame; }
 
-    public List<BoxInfo> getBox() { return box; }
-    public void setBox(List<BoxInfo> box) { this.box = box; }
+    public List<BoxInformation> getBox() { return box; }
+    public void setBox(List<BoxInformation> box) { this.box = box; }
 
     public DeviceHardware getDeviceHardware() { return deviceHardware; }
     public void setDeviceHardware(DeviceHardware deviceHardware) { this.deviceHardware = deviceHardware; }

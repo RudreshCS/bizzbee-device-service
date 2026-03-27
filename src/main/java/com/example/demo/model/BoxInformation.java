@@ -1,6 +1,6 @@
 package com.example.demo.model;
 
-public class BoxInfo {
+public class BoxInformation {
     private String boxId;
     private String temperatureSensorId;
     private String weightSensorId;
@@ -8,7 +8,7 @@ public class BoxInfo {
     private String microphoneId;
     private String humiditySensorId;
 
-    public BoxInfo() {}
+    public BoxInformation() {}
 
     public String getBoxId() { return boxId; }
     public void setBoxId(String boxId) { this.boxId = boxId; }
